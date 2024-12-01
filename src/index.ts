@@ -1,1 +1,1 @@
-export * from './useScrollProgressEffect';
+export * from './useScrollProgress';
