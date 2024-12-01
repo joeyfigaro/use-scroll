@@ -37,6 +37,7 @@
     "react-dom": ">16.8.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
     "@testing-library/react": "*",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
