@@ -18,15 +18,15 @@
     }
   },
   "scripts": {
-    "dev": "yarn tsup --watch",
-    "bundle": "yarn run build",
-    "build": "yarn run tsup",
-    "lint:fix": "yarn eslint . --fix",
-    "format:fix": "yarn prettier . --write",
-    "typecheck": "yarn tsup --dts-only",
-    "test": "NODE_ENV=test yarn vitest --ui --mode development",
-    "test:ci": "yarn vitest run --coverage",
-    "test:watch": "yarn vitest --watch"
+    "dev": "pnpm tsup --watch",
+    "bundle": "pnpm run build",
+    "build": "pnpm run tsup",
+    "lint:fix": "pnpm eslint . --fix",
+    "format:fix": "pnpm prettier . --write",
+    "typecheck": "pnpm tsup --dts-only",
+    "test": "NODE_ENV=test pnpm vitest --ui --mode development",
+    "test:ci": "pnpm vitest run --coverage",
+    "test:watch": "pnpm vitest --watch"
   },
   "files": [
     "dist"
