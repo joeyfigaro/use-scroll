@@ -11,6 +11,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "react",
+    "hooks",
+    "scroll",
+    "progress",
+    "side-effects",
+    "scroll progress"
+  ],
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
@@ -32,7 +40,7 @@
   "scripts": {
     "dev": "pnpm tsup --watch",
     "bundle": "pnpm run build",
-    "build": "pnpm tsup src/index.ts --format esm,cjs --dts",
+    "build": "pnpm tsup src/index.ts --format esm,cjs --dts --minify",
     "lint:fix": "pnpm eslint . --fix",
     "format:fix": "pnpm prettier . --write",
     "typecheck": "pnpm tsup --dts-only",
