@@ -1,6 +1,16 @@
 {
   "name": "@joeyfigaro/use-scroll",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeyfigaro/use-scroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joeyfigaro/use-scroll/issues"
+  },
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
