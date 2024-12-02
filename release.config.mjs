@@ -5,13 +5,19 @@ export default {
     { name: 'beta', channel: 'beta', prerelease: true },
   ],
   plugins: [
-    {
-      path: '@semantic-release/changelog',
-      changelogFile: 'CHANGELOG.md',
-    },
+    [
+      '@semantic-release/npm',
+      {
+        tarballDir: 'release',
+      },
+    ],
+    [
+      '@semantic-release/github',
+      {
+        assets: 'release/*.tgz',
+      },
+    ],
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    '@semantic-release/npm',
-    '@semantic-release/github',
   ],
 };
