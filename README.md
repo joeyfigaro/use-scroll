@@ -1,10 +1,6 @@
-**💛 [Sponsor me](https://github.com/sponsors/joeyfigaro).**
-
----
-
 # @joeyfigaro/use-scroll
 
-[![npm version](https://badgen.net/npm/v/@joeyfigaro/use-scroll)](https://npm.im/@joeyfigaro/use-scroll) [![npm downloads](https://badgen.net/npm/dm/@joeyfigaro/use-scroll)](https://npm.im/@joeyfigaro/use-scroll)
+[![version](https://badgen.net/npm/v/@joeyfigaro/use-scroll)](https://npm.im/@joeyfigaro/use-scroll) ![types](https://badgen.net/npm/types/@joeyfigaro/use-scroll) ![license](https://badgen.net/npm/license/@joeyfigaro/use-scroll) ![license](https://badgen.net/github/tag/joeyfigaro/use-scroll)
 
 ## Install
 
@@ -14,10 +10,8 @@ yarn add @joeyfigaro/use-scroll
 pnpm add @joeyfigaro/use-scroll
 ```
 
-## Sponsors
-
-[![sponsors](https://sponsors-images.joeyfigaro.dev/sponsors.svg)](https://github.com/sponsors/joeyfigaro)
+\*\*💛 [Sponsor me](https://github.com/sponsors/
 
 ## License
 
-MIT &copy; [joeyfigaro](https://github.com/sponsors/joeyfigaro)
+MIT &copy; [joeyfigaro](https://github.com/sponsors/joeyfigaro)joeyfigaro).\*\*
