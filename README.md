@@ -10,8 +10,8 @@ yarn add @joeyfigaro/use-scroll
 pnpm add @joeyfigaro/use-scroll
 ```
 
-\*\*💛 [Sponsor me](https://github.com/sponsors/
+💛 [Sponsor me](https://github.com/sponsors/)
 
 ## License
 
-MIT &copy; [joeyfigaro](https://github.com/sponsors/joeyfigaro)joeyfigaro).\*\*
+MIT &copy; [joeyfigaro](https://github.com/sponsors/joeyfigaro)

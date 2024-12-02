@@ -6,7 +6,7 @@ import {
   type WheelEvent,
 } from 'react';
 
-export const useScrollProgress = ({
+export const useScrollProgress = <E extends HTMLElement>({
   target = 70,
   onTargetReached,
   direction = 'down',
@@ -15,7 +15,7 @@ export const useScrollProgress = ({
   target?: number;
   onTargetReached?: () => void;
 }) => {
-  const scrollingPane = useRef<HTMLDivElement>(null);
+  const scrollingPane = useRef<E>(null);
   const [scrollDirection, setScrollDirection] = useState<'up' | 'down'>('down');
 
   const onWheel = useCallback(
@@ -33,7 +33,7 @@ export const useScrollProgress = ({
   );
 
   const onScroll = useCallback(
-    (event: UIEvent<HTMLDivElement>) => {
+    (event: UIEvent<E>) => {
       const element = event.currentTarget;
       const scrollProgress = Math.floor(
         (element.scrollTop / (element.scrollHeight - element.clientHeight)) *
