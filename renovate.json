@@ -1,6 +1,10 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "ignoreDeps": ["react", "@types/react", "react-dom", "@types/react-dom", "node"]
+  "extends": ["config:recommended"],
+  "ignoreDeps": [
+    "react",
+    "@types/react",
+    "react-dom",
+    "@types/react-dom",
+    "node"
+  ]
 }
